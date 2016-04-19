@@ -7,6 +7,6 @@ var port = process.env.port || 3000, hostname = 'localhost';
 
 timecheck(app)
 
-app.listen(port, hostname, function(){
+app.listen(port, function(){
 	console.log("Server running at http://" + hostname + ":" + port)
 })
